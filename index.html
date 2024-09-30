@@ -1,47 +1,323 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
+    <title>HTML – Document</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meine Seite</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <style>
-      .abgerundetes-bild {
-        width: 60%;
-        border: double 6px goldenrod;
-        border-radius: 12px;
-        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
-      }
-    </style>
+    <link rel="stylesheet" href="./ueberschriften.css">
   </head>
-
   <body>
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-6 col-md-8 mx-auto">
-          <img class="abgerundetes-bild" src="./mama.jpg" alt="Mama" />
-          <h1 class="fw-light">Mama</h1>
-          <p class="lead text-muted"></p>
-          <p>
-            Das ist meine Mama mit mir in Wolfsburg. Das war ein toller Tag.
-          </p>
-          <a href="https://github.com/asya2009/mein-erstes-projekt" target="_blank" class="btn btn-primary">
-            Meine Webseite
-          </a>
-        </div>
-      </div>
+    <!-- Überschriften -->
+    <div class="headings">
+      <h2>Überschriften</h2>
+      <h1>Überschrift h1</h1>
+      <h2>Überschrift h2</h2>
+      <h3>Überschrift h3</h3>
+      <h4>Überschrift h4</h4>
+      <h5>Überschrift h5</h5>
+      <h6>Überschrift h6</h6>
     </div>
+    <!-- Absatz -->
+    <div class="paragraph">
+      <h2>Absatz</h2>
+      <p>Das ist ein Absatz.</p>
+      <p>Das ist ein weiterer Absatz.</p>
+      <p>Das ist noch ein Absatz.</p>
+      <p>Das ist der letzte Absatz.</p>
+      <p>Das ist der allerletzte Absatz.</p>
+    </div>
+    <!-- Link -->
+    <div class="link-container">
+      <h2>Link</h2>
+      <a href="https://www.google.com">Google</a>
+      <a href="https://www.youtube.com">Youtube</a>
+      <a href="https://www.facebook.com">Facebook</a>
+      <a href="https://www.instagram.com">Instagram</a>
+      <a href="https://www.twitter.com">Twitter</a>
+    </div>
+    <!-- Navigation -->
+     <div class="navigation">
+      <h2>Navigation</h2>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Über uns</a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
+        </ul>
+      </nav>
+     </div>
+    <!-- Liste -->
+     <div class="list">
+      <h2>Liste</h2>
+    <ul>
+      <li>Element 1</li>
+      <li>Element 2</li>
+      <li>Element 3</li>
+      <li>Element 4</li>
+      <li>Element 5</li>
+    </ul>
+     </div>
+    <!-- Tabelle -->
+    <div class="table">
+      <h2>Tabelle</h2>
+      <table>
+        <tr>
+          <th>Spalte 1</th>
+          <th>Spalte 2</th>
+          <th>Spalte 3</th>
+        </tr>
+        <tr>
+          <td>Zeile 1, Spalte 1</td>
+          <td>Zeile 1, Spalte 2</td>
+          <td>Zeile 1, Spalte 3</td>
+        </tr>
+        <tr>
+          <td>Zeile 2, Spalte 1</td>
+          <td>Zeile 2, Spalte 2</td>
+          <td>Zeile 2, Spalte 3</td>
+        </tr>
+        <tr>
+          <td>Zeile 3, Spalte 1</td>
+          <td>Zeile 3, Spalte 2</td>
+          <td>Zeile 3, Spalte 3</td>
+        </tr>
+      </table>
+    </div>
+    <!-- Bild -->
+     <div class="img">
+      <h2>Bild</h2>
+     <img src="https://via.placeholder.com/150" alt="Bild" />
+     <img src="https://via.placeholder.com/150" alt="Bild" />
+     <img src="https://via.placeholder.com/150" alt="Bild" />
+     <img src="https://via.placeholder.com/150" alt="Bild" />
+     <img src="https://via.placeholder.com/150" alt="Bild" />
+     </div>
+    <!-- Video -->
+     <div class="video">
+      <h2>Video</h2>
+    <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls></video>
+    <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls></video>
+    <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls></video>
+    <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls></video>
+    <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls></video>
+     </div>
+    <!-- Audio -->
+     <div class="audio">
+      <h2>Audio</h2>
+    <audio src="https://www.w3schools.com/html/horse.mp3" controls></audio>
+    <audio src="https://www.w3schools.com/html/horse.mp3" controls></audio>
+    <audio src="https://www.w3schools.com/html/horse.mp3" controls></audio>
+    <audio src="https://www.w3schools.com/html/horse.mp3" controls></audio>
+    <audio src="https://www.w3schools.com/html/horse.mp3" controls></audio>
+     </div>
+    <!-- Formular -->
+     <div class="form">
+      <h2>Formular</h2>
+      <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" />
+        <label for="password">Passwort:</label>
+        <input type="password" id="password" name="password" />
+        <label for="message">Nachricht:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit">Absenden</button>
+      </form>
+    </div>
+    <!-- Skript -->
+     <div class="script"><h2>Skript</h2>
+      <script>
+        console.log("Hallo Welt!");
+      </script>
+      </div>
+    <!-- Div -->
+     <div class="div-container">
+      <h2>Div</h2>
+      <div>Div</div>
+      <div>Div</div>
+      <div>Div</div>
+      <div>Div</div>
+      <div>Div</div>
+     </div>
+    <!-- Span -->
+    <div class="Span">
+      <h2>Das ist ein Span - Div</h2>
+      <span>Span (Inlineelement)</span>
+      <span>Span (Inlineelement)</span>
+      <span>Span (Inlineelement)</span>
+      <span>Span (Inlineelement)</span>
+      <span>Span (Inlineelement)</span>
+    </div>
+    <!-- Kommentar -->
+    <div style="background: #dedcde" class="commited-div">
+      <h2>Das ist ein Kommentar - Div</h2>
+      <!-- Das ist ein Kommentar -->
+    </div>
+    <!-- Zitat -->
+     <div class="block-quote">
+      <h2>Zitat ( blockquote )</h2>
+      <blockquote>Zitat ( blockquote )</blockquote>
+      <blockquote>Zitat ( blockquote )</blockquote>
+      <blockquote>Zitat ( blockquote )</blockquote>
+      <blockquote>Zitat ( blockquote )</blockquote>
+      <blockquote>Zitat ( blockquote )</blockquote>
+     </div>
+    <!-- Zitat -->
+    <q>Zitat ( q )</q>
+    <q>Zitat ( q )</q>
+    <q>Zitat ( q )</q>
+    <q>Zitat ( q )</q>
+    <q>Zitat ( q )</q>
+    <!-- Zitat -->
+    <cite>Zitat ( cite )</cite>
+    <cite>Zitat ( cite )</cite>
+    <cite>Zitat ( cite )</cite>
+    <cite>Zitat ( cite )</cite>
+    <cite>Zitat ( cite )</cite>
+    <!-- Zitat -->
+    <dfn>Zitat ( dfn )</dfn>
+    <dfn>Zitat ( dfn )</dfn>
+    <dfn>Zitat ( dfn )</dfn>
+    <dfn>Zitat ( dfn )</dfn>
+    <dfn>Zitat ( dfn )</dfn>
+    <!-- Zitat -->
+    <abbr title="Zitat">Zitat ( title )</abbr>
+    <abbr title="Zitat">Zitat ( title )</abbr>
+    <abbr title="Zitat">Zitat ( title )</abbr>
+    <abbr title="Zitat">Zitat ( title )</abbr>
+    <abbr title="Zitat">Zitat ( title )</abbr>
+    <!-- Zitat -->
+    <address>Zitat ( address )</address>
+    <address>Zitat ( address )</address>
+    <address>Zitat ( address )</address>
+    <address>Zitat ( address )</address>
+    <address>Zitat ( address )</address>
+    <!-- Zitat -->
+    <bdo>Zitat ( bdo )</bdo>
+    <bdo>Zitat ( bdo )</bdo>
+    <bdo>Zitat ( bdo )</bdo>
+    <bdo>Zitat ( bdo )</bdo>
+    <bdo>Zitat ( bdo )</bdo>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+     <div class="ins">
+      <h2>ins</h2>
+    <ins>Zitat ( ins )</ins>
+    <ins>Zitat ( ins )</ins>
+    <ins>Zitat ( ins )</ins>
+    <ins>Zitat ( ins )</ins>
+    <ins>Zitat ( ins )</ins>
+     </div>
+
+     <div class="del">
+      <h2>del</h2>
+    <del>Zitat ( del )</del>
+    <del>Zitat ( del )</del>
+    <del>Zitat ( del )</del>
+    <del>Zitat ( del )</del>
+    <del>Zitat ( del )</del>
+     </div>
+
+    <s>Zitat ( s )</s>
+    <u>Zitat ( u )</u>
+
+    <mark>Zitat</mark>
+    <mark>Zitat</mark>
+    <mark>Zitat</mark>
+    <mark>Zitat</mark>
+    <mark>Zitat</mark>
+    <!-- Zitat -->
+    <small>Zitat</small>
+    <small>Zitat</small>
+    <small>Zitat</small>
+    <small>Zitat</small>
+    <small>Zitat</small>
+    <!-- Zitat -->
+    <strong>Zitat</strong>
+    <strong>Zitat</strong>
+    <strong>Zitat</strong>
+    <strong>Zitat</strong>
+    <strong>Zitat</strong>
+    <!-- Zitat -->
+    <em>Zitat</em>
+    <em>Zitat</em>
+    <em>Zitat</em>
+    <em>Zitat</em>
+    <em>Zitat</em>
+    <!-- Zitat -->
+    <i>Zitat</i>
+    <i>Zitat</i>
+    <i>Zitat</i>
+    <i>Zitat</i>
+    <i>Zitat</i>
+    <!-- Zitat -->
+    <b>Zitat</b>
+    <b>Zitat</b>
+    <b>Zitat</b>
+    <b>Zitat</b>
+    <b>Zitat</b>
+    <!-- Zitat -->
+    <code>Zitat</code>
+    <code>Zitat</code>
+    <code>Zitat</code>
+    <code>Zitat</code>
+    <code>Zitat</code>
+    <!-- Zitat -->
+    <kbd>Zitat</kbd>
+    <kbd>Zitat</kbd>
+    <kbd>Zitat</kbd>
+    <kbd>Zitat</kbd>
+    <kbd>Zitat</kbd>
+    <!-- Zitat -->
+    <samp>Zitat</samp>
+    <samp>Zitat</samp>
+    <samp>Zitat</samp>
+    <samp>Zitat</samp>
+    <samp>Zitat</samp>
+    <!-- Zitat -->
+    <var>Zitat</var>
+    <var>Zitat</var>
+    <var>Zitat</var>
+    <var>Zitat</var>
+    <var>Zitat</var>
+    <!-- Zitat -->
+    <pre>Zitat</pre>
+    <pre>Zitat</pre>
+    <pre>Zitat</pre>
+    <pre>Zitat</pre>
+    <pre>Zitat</pre>
+    <!-- Zitat -->
+    <blockquote>Zitat</blockquote>
+    <blockquote>Zitat</blockquote>
+    <blockquote>Zitat</blockquote>
+    <blockquote>Zitat</blockquote>
+    <blockquote>Zitat</blockquote>
+    <!-- Zitat -->
+    <q>Zitat</q>
+    <q>Zitat</q>
+    <q>Zitat</q>
+    <q>Zitat</q>
+    <q>Zitat</q>
+    <!-- Zitat -->
+    <cite>Zitat</cite>
+    <cite>Zitat</cite>
+    <cite>Zitat</cite>
+    <cite>Zitat</cite>
+    <cite>Zitat</cite>
+    <!-- Zitat -->
+    <dfn>Zitat</dfn>
+    <dfn>Zitat</dfn>
+    <dfn>Zitat</dfn>
+    <dfn>Zitat</dfn>
+    <dfn>Zitat</dfn>
+    <!-- Zitat -->
+    <abbr title="Zitat">Zitat</abbr>
+    <abbr title="Zitat">Zitat</abbr>
+    <abbr title="Zitat">Zitat</abbr>
+    <abbr title="Zitat">Zitat</abbr>
+    <abbr title="Zitat">Zitat</abbr>
+    <!-- Zitat -->
   </body>
 </html>
-<!-- https://www.youtube.com/watch?v=W4MIiV4nZDY 1st 47min-->
